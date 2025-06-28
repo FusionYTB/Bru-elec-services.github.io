@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bru-Elec Service</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Bru-Elec Service</h1>
+            <span class="slogan">Votre électricien de confiance à Obaix</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="menu-link" data-page="accueil">Présentation</a></li>
+                <li><a href="#" class="menu-link" data-page="tarifs">Tarifs</a></li>
+                <li><a href="#" class="menu-link" data-page="contact">Contact</a></li>
+                <li><a href="#" class="menu-link" data-page="marques">Marques</a></li>
+                <li><a href="#" class="menu-link" data-page="syndics">Syndics</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="accueil" class="page active">
+            <h2>Présentation</h2>
+            <p>
+                Bru-Elec Service est une entreprise d'électricité générale basée à Obaix, dans la région de Wallonie.<br>
+                Fondée en 2020, notre équipe intervient pour tous vos travaux d’installation, de rénovation et de dépannage électrique.<br>
+                Nous mettons notre expertise et notre sérieux à votre service pour garantir la sécurité et la conformité de vos installations.
+            </p>
+            <ul>
+                <li>Installations électriques neuves</li>
+                <li>Mises en conformité</li>
+                <li>Dépannages rapides</li>
+                <li>Parlophonie/Vidéophonie</li>
+                <li>Contrôle d'accès</li>
+            </ul>
+        </section>
+        <section id="tarifs" class="page">
+            <h2>Tarifs</h2>
+            <p>
+                Nos tarifs sont compétitifs et adaptés à chaque projet.<br>
+                Pour obtenir un devis personnalisé, contactez-nous via le formulaire.<br>
+                <strong>Exemples de prestations&nbsp;:</strong>
+            </p>
+            <ul>
+                <li>Intervention dépannage&nbsp;: <span class="tarif">80 €</span></li>
+                <li>Installation Parlophonie&nbsp;: <span class="tarif">150 → 350  €</span></li>
+                <li>Mise en conformité tableau&nbsp;: <span class="tarif">120 €</span></li>
+            </ul>
+            <p class="note">* Les prix sont donnés à titre indicatif et peuvent varier selon la complexité du chantier.</p>
+        </section>
+
+        <section id="contact" class="page">
+    <h2>Contact</h2>
+    <form id="formulaireContact">
+
+        <label for="nom">Nom&nbsp;:</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email&nbsp;:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Votre message&nbsp;:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+    <div class="coordonnees">
+        <h3>Coordonnées</h3>
+        <p>
+            Adresse&nbsp;: <span class="a-completer">Venelle Françoise Dolto 6, 6230 Pont-à-Celles</span><br>
+            Téléphone&nbsp;: <span class="a-completer">0475 89 32 05</span><br>
+            Email&nbsp;: <span class="a-completer">info@bruelecservices.be</span>
+        </p>
+    </div>
+</section>
+
+<section id="marques" class="page">
+    <h2>Nos Marques & Partenaires</h2>
+    <div class="liste-marques">
+        <div class="marque">
+            <img src="images/aiphone.png" alt= "Aiphone">
+            <span>Aiphone</span>
+        </div>
+        <div class="marque">
+            <img src="images/bticino.png" alt="Bticino">
+            <span>Bticino</span>
+        </div>
+        <div class="marque">
+            <img src="images/Rexel.png" alt="Rexel">
+            <span>Rexel</span>
+        </div>
+        
+    </div>
+    <p class="note">Nous travaillons avec les plus grandes marques du secteur pour garantir qualité et fiabilité à nos clients.</p>
+</section>
+
+<section id="syndics" class="page">
+    <h2>Nos Syndics partenaires</h2>
+    <p>
+        Nous travaillons en confiance avec plus de 50 syndics professionnels et bénévoles, pour la gestion de copropriétés de toutes tailles.<br>
+        Voici quelques exemples de syndics qui nous font confiance :
+    </p>
+    <div class="liste-syndics">
+        <div class="syndic">Immo Likendal</div>
+        <div class="syndic">Genon</div>
+        <div class="syndic">Syndic Plus</div>
+        <div class="syndic">Syndic Pro</div>
+        <div class="syndic">AGECI Europe</div>
+        <div class="syndic">Pole Concept</div>
+        
+        <div class="syndic">...</div>
+    </div>
+    <p class="note">Cette liste n'est pas complete. Pour plus d'informations sur nos références, contactez-nous.</p>
+</section>
+
+
+    </main>
+    <footer>
+        &copy; 2025 Bru-Elec Service — Tous droits réservés.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
